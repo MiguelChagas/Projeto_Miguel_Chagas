@@ -42,7 +42,8 @@ int main() {
     A objA(10, 3.14);
     B objB(20, 6.28);
 
-    objA.getSoma (); 
+    int soma = objA.getSoma(5, 2.5);
+    std::cout << "Soma: " << soma << std::endl;
     objA.MA1();
     objB.MB2();
 
