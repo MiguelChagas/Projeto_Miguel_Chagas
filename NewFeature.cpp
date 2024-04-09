@@ -17,6 +17,7 @@ public:
 
     void MA1() { std::cout << "Metodo MA1() chamado" << std::endl; }
     void MA2() { std::cout << "Metodo MA2() chamado" << std::endl; }
+    int getSoma(int a, float b) { return a + b; }
 };
 
 // Classe B
@@ -81,6 +82,8 @@ int main() {
     A objA(10, 3.14);
     B objB(20, 6.28);
 
+    int soma = objA.getSoma(5, 2.5);
+    std::cout << "Soma: " << soma << std::endl;
     objA.MA1();
     objB.MB2();
       
