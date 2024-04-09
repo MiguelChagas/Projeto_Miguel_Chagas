@@ -77,6 +77,8 @@ public:
 
     void MD1() { std::cout << "Metodo MD1() chamado" << std::endl; }
     void MD2() { std::cout << "Metodo MD2() chamado" << std::endl; }
+    void MD3() {std::cout << "MD3() chamado" << std::endl; }
+    void MD4() {std::cout << "MD4() chamado" << std::endl; }
 };
 int main() {
     A objA(10, 3.14);
